@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DD961E9B2D0E162F009F5D22 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD961E9A2D0E162F009F5D22 /* main.m */; };
+		DD961EA22D0E1A73009F5D22 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = DD961EA12D0E1A73009F5D22 /* Shaders.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		DD961E972D0E162F009F5D22 /* triangle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = triangle; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD961E9A2D0E162F009F5D22 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD961EA12D0E1A73009F5D22 /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +43,7 @@
 		DD961E8E2D0E162F009F5D22 = {
 			isa = PBXGroup;
 			children = (
+				DD961EA12D0E1A73009F5D22 /* Shaders.metal */,
 				DD961E992D0E162F009F5D22 /* triangle */,
 				DD961E982D0E162F009F5D22 /* Products */,
 			);
@@ -119,6 +122,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD961EA22D0E1A73009F5D22 /* Shaders.metal in Sources */,
 				DD961E9B2D0E162F009F5D22 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
